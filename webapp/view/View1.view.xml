@@ -4,6 +4,7 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <Label text="sfc_hello!" />
+            <Button text="Hello" id="buttonHello" press=".onAlertHelloButtonPress"/>
         </content>
     </Page>
 </mvc:View>
