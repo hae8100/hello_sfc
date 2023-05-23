@@ -11,8 +11,10 @@ sap.ui.define([
             onInit: function () {
 
             },
+            
             onAlertHelloButtonPress : function (){
                 MessageBox.alert("Hello SFC ( SAP Fiori Cafe )");
             }
+
         });
     });
