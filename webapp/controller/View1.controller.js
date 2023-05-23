@@ -10,6 +10,9 @@ sap.ui.define([
 		return Controller.extend("com.sfc.hellosfc.controller.View1", {
 			onInit: function () {
 
-			}
+			},
+            onAlertHelloButtonPress : function (){
+                MessageBox.alert("Hello SFC ( SAP Fiori Cafe )");
+            }
 		});
 	});
